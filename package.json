@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && scully",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "scully": "npx scully --",
+    "scully": "scully",
     "scully:serve": "npx scully serve --",
     "lint": "ng lint",
     "prettier": "prettier --write **/*.{ts,scss,html,md,json}"
