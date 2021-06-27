@@ -9,7 +9,8 @@
     "test": "ng test",
     "scully": "npx scully --",
     "scully:serve": "npx scully serve --",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "prettier": "prettier --write **/*.{ts,scss,html,md,json}"
   },
   "private": true,
   "dependencies": {
